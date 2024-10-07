@@ -5,7 +5,7 @@ document.getElementById('accept-btn').addEventListener('click', function() {
 });
 
 document.getElementById('reject-btn').addEventListener('click', function() {
-    openAboutBlank();
+    
 });
 
 window.onload = function() {
