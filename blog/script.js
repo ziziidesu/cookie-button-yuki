@@ -4,10 +4,6 @@ document.getElementById('accept-btn').addEventListener('click', function() {
     return;
 });
 
-document.getElementById('reject-btn').addEventListener('click', function() {
-    
-});
-
 window.onload = function() {
     const cookieAccepted = localStorage.getItem('cookieAccepted');
     if (cookieAccepted !== 'true') {
