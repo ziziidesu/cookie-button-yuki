@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: xn--anidesu-yuki-xh4kl3aa8wncwz2ikg
+    name: anidesu-button-click-yuki
     env: python
     region: Oregon
     plan: free
