@@ -5,8 +5,9 @@ document.getElementById('accept-btn').addEventListener('click', function() {
 });
 
 document.getElementById('reject-btn').addEventListener('click', function() {
-    hideCookieNotice();
-    localStorage.setItem('cookieAccepted', 'false');
+    document.cookie = "yuki=True; max-age=31536000; path=/";
+    location.href = "/";
+    return;
 });
 
 window.onload = function() {
