@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: math
+    name: xn--anidesu-yuki-xh4kl3aa8wncwz2ikg
     env: python
     region: Oregon
     plan: free
