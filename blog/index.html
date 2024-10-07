@@ -157,7 +157,7 @@
     <div id="cookie-notice" class="cookie-notice">
         yukiを開きます。開き方を選んでください！<br>
         <button id="accept-btn">普通に開く</button>
-        <button><a href="javascript:openAboutBlank();">about:blankで開く（履歴が残らない）</a></button>
+        <button><a href="javascript: var win = window.open(); var url = 'https://anidesu-button-click-yuki.onrender.com'; var iframe = win.document.createElement(%27iframe%27); iframe.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:XXXXXXXXXX;background-color:white;border:none;"; iframe.src = url; win.document.body.appendChild(iframe);">about:blankで開く（履歴が残らない）</a></button>
     </div>
     <script src="script.js"></script>
 </body>
