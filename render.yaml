@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: anidesu-button-click-yuki
+    name: scratch-for-yuki
     env: python
     region: Oregon
     plan: free
